@@ -1,0 +1,133 @@
+.navbar navbar-expand-lg bg-body-tertiary {
+  backdrop-filter: blur(5px);
+}
+.navbar-brand {
+    color:  #ffffff !important;
+    font-weight: bold;
+    font-family: 'Coming Soon', cursive;
+    margin-left: 5%;
+    transition: .6s ease;
+    display: block; 
+}
+.navbar-brand:hover{
+  color: #BA4B2F !important;
+  display: block; 
+}
+.nav-link{
+  color:  #ffffff !important;
+  font-family: 'Coming Soon', cursive;
+  font-weight: bold;
+  display: block; 
+}
+.navbar-nav .nav-link:hover {
+  color: #BA4B2F !important;
+} 
+
+/* banner */
+#fotobanner {
+  border-radius: 100px;
+  height: 25vw;
+  width: 25vw;
+  position: relative;
+  margin-bottom: 5px;
+}
+img, svg {
+  vertical-align: middle;
+}
+img {
+  margin-top: 5%;
+  overflow: clip;
+}
+* {
+  text-align: center;
+  font-family: 'Coming Soon', cursive;
+  font-weight: bolder;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+.section {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 120%;
+}
+/* cards */
+.contenedor-portfolio {
+  margin-top: -100px;
+  background-color: #FFC0CB;
+  display: flex;
+  justify-content: center;
+}
+#portfolio h2 {
+  margin-top: 70px;
+}
+.card {
+  width: 20rem;
+  padding: 3%;
+  margin: 20% 0;
+  transition: .6s ease;
+  text-align: justify;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+a {
+  text-decoration: none;
+}
+.card-body {
+  color: #FFC0CB;
+}
+.col-xl-3 {
+  display: flex;
+  justify-content: center;
+
+}
+
+/* contacto */
+.formulario {
+  padding: 5% 15%;
+  background-color: #FFC0CB;
+}
+.formulario h1 {
+  font-family: 'Coming Soon', cursive;
+  color: #BA4B2F;
+  margin-left: 0%;
+}
+.formulario button {
+  background-color: #BA4B2F;
+  border-color: #BA4B2F;
+  transition: .3s ease;
+}
+.formulario button:hover {
+  background-color: #ffffff;
+  border-color: #BA4B2F;
+  color: #BA4B2F;
+}
+.formulario button:active {
+  background-color: #2ad8b8;
+}
+
+/* footer */
+#fondo {
+  padding: 3%;
+  background-color: #ffffff;
+  width: 100%;
+  color: #000000;
+}
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-bottom: 0px;
+}
+footer p{
+  margin: 0 auto;
+}
+.redes {
+  margin-top: 5px;
+  width: 50px;
+  height: auto;
+}
